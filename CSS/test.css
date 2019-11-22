@@ -1,0 +1,18 @@
+.container #cube {
+    width: 20%;
+    height: 40%;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,224,0,1) 100%);
+    
+}
+
+
+#cube {
+    width: 50%;
+  }
+  
+  #cube:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
