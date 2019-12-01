@@ -1,6 +1,6 @@
-.container #cube {
-    width: 20%;
-    height: 40%;
+#cube {
+    width: 20vh;
+    height: 20vh;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,224,0,1) 100%);
     
@@ -14,5 +14,16 @@
 
 
 .container-space {
-    margin-top: 50px;
+    margin: 50px;
+}
+
+header {
+    height: 100vh;
+
+}
+
+h1 {
+    width: 10vh;
+    height: 10vh;;
+
 }
