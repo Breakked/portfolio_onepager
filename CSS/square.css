@@ -1,0 +1,103 @@
+#test {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,224,0,1) 100%);
+  z-index: 1;
+}
+#test:before {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  border-top: 4px solid #000;
+  border-left: 4px solid #000;
+}
+#test:after {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-top: 4px solid #000;
+  border-right: 4px solid #000;
+}
+span:before {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  border-bottom: 4px solid #000;
+  border-left: 4px solid #000;
+}
+span:after {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  border-bottom: 4px solid #000;
+  border-right: 4px solid 
+}
+
+#header-square {
+  position: relative;
+  width: 50%;
+}
+
+#header-square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+@media only screen and (width: 360px) {
+  #test {
+    width: 10px;
+    height: 10px; 
+  }
+}
+
+
+@media only screen and (width: 1366px) {
+  #test {
+    width: 150px;
+    height: 150px; 
+  }
+}
+
+
+
+@media only screen and (width: 1440px) {
+  #test {
+    width: 180px;
+    height: 180px; 
+  }
+}
+
+
+@media only screen and (width: 1680px) {
+  #test {
+    width: 200px;
+    height: 200px; 
+  }
+}
+
+@media only screen and (width: 1920px) {
+  #test {
+    width: 400px;
+    height: 400px; 
+  }
+}
