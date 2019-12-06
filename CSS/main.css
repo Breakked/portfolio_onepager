@@ -1,9 +1,10 @@
-
+#header-title {
+    z-index: 2;
+}
 .pic-height {
     width: 50%;
     height: 50%;
 }
-
 
 .container-space {
     margin: 50px;
@@ -11,7 +12,7 @@
 
 header {
     height: 100vh;
-
+    align-content: center;
 }
 
 h1 {
