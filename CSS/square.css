@@ -1,4 +1,4 @@
-#test {
+#square {
   position: relative;
   width: 100px;
   height: 100px;
@@ -7,7 +7,7 @@
   background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,224,0,1) 100%);
   z-index: 1;
 }
-#test:before {
+#square:before {
   display: block;
   content: "";
   width: 20px;
@@ -18,7 +18,7 @@
   border-top: 4px solid #000;
   border-left: 4px solid #000;
 }
-#test:after {
+#square:after {
   display: block;
   content: "";
   width: 20px;
@@ -64,7 +64,7 @@ span:after {
 }
 
 @media only screen and (width: 360px) {
-  #test {
+  #square {
     width: 10px;
     height: 10px; 
   }
@@ -72,7 +72,7 @@ span:after {
 
 
 @media only screen and (width: 1366px) {
-  #test {
+  #square {
     width: 150px;
     height: 150px; 
   }
@@ -81,7 +81,7 @@ span:after {
 
 
 @media only screen and (width: 1440px) {
-  #test {
+  #square {
     width: 180px;
     height: 180px; 
   }
@@ -89,14 +89,14 @@ span:after {
 
 
 @media only screen and (width: 1680px) {
-  #test {
+  #square {
     width: 200px;
     height: 200px; 
   }
 }
 
 @media only screen and (width: 1920px) {
-  #test {
+  #square {
     width: 400px;
     height: 400px; 
   }
