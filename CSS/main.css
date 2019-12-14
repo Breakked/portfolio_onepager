@@ -5,8 +5,8 @@
 }
 
 
-.container-space {
-    margin: 50px;
+.section-container {
+    height: 100vh;;
 }
 
 header {
@@ -23,4 +23,9 @@ header {
 
 header, h1 {
     font-size: 3rem;
+}
+
+#corner {
+    width: 10vh;
+    height: 10vh;
 }
