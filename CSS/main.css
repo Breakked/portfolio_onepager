@@ -25,13 +25,35 @@ header, h1 {
     font-size: 3rem;
 }
 
-#corner {
-    width: 10vh;
-    height: 10vh;
+.corner {
+    width: 5vh;
+    height: 5vh;
 }
 
 .container-space {
     width: 100vh;
     height: 100vh;
 }
-<svg version="1.1" id="corner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 125 125" style="enable-background:new 0 0 125 125;" xml:space="preserve"><polygon points="125,0 25,0 0,0 0,25 0,125 25,125 25,25 125,25 "/></svg>
+
+
+h2 {
+    font-size: 20pt;
+}
+
+.sector-margin {
+    margin-top: 20px;
+}
+
+.sector-margin p {
+    justify-content: center;
+}
+
+.corner-position {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.center-img img{
+    margin-left: 10%;
+}
