@@ -1,12 +1,12 @@
-
-.pic-height {
-    width: 50%;
-    height: 50%;
-}
-
-
-.section-container {
-    height: 100vh;;
+#square {
+    max-width: 300px;
+    max-height: auto;
+    float: right;
+  }
+  
+  
+img {
+    max-width: 100%;
 }
 
 header {
@@ -29,3 +29,9 @@ header, h1 {
     width: 10vh;
     height: 10vh;
 }
+
+.container-space {
+    width: 100vh;
+    height: 100vh;
+}
+<svg version="1.1" id="corner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 125 125" style="enable-background:new 0 0 125 125;" xml:space="preserve"><polygon points="125,0 25,0 0,0 0,25 0,125 25,125 25,25 125,25 "/></svg>
