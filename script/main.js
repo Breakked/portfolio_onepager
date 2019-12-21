@@ -10,3 +10,14 @@ window.onscroll = function() {
         document.getElementById("pic1").style.opacity = "0"; 
     }
 }
+
+
+
+
+// Load this when the DOM is ready
+$(function(){
+  // You used .myCarousel here. 
+  // That's the class selector not the id selector,
+  // which is #myCarousel
+  $('#myCarousel').carousel();
+});
