@@ -49,8 +49,15 @@ h2 {
 }
 
 .center-img img{
-    margin-left: 10%;
+    padding: 4%;
 }
+
+
+
+video {
+    padding: 4%;
+}
+
 
 #pic1 {
     opacity: 0;
