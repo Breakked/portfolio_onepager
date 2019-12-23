@@ -36,8 +36,8 @@ header, h1 {
 }
 
 
-h2 {
-    font-size: 20pt;
+h2 strong{
+    font-size: 50pt;
 }
 
 
@@ -79,5 +79,6 @@ video {
 }
 
 .img-size {
-    padding: 10%;
+    margin-top: 30%;
+    margin-left: 20%;   
 }
