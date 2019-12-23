@@ -26,8 +26,8 @@ header, h1 {
 }
 
 .corner {
-    width: 5vh;
-    height: 5vh;
+    width: 3vh;
+    height: 3vh;
 }
 
 .container-space {
@@ -81,4 +81,9 @@ video {
 .img-size {
     margin-top: 30%;
     margin-left: 20%;   
+}
+
+
+.background {
+   background-color: yellow; 
 }
